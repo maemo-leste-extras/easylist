@@ -166,3 +166,9 @@ void MainForm::on_actionChecked_bottom_triggered()
     settings->setValue(CHECKED_ITEMS_TO_BOTTOM, sortToBottom);
     MyCheckBoxContainer::getInstance()->setSortCheckedToBottom(sortToBottom);
 }
+
+void MainForm::closeEvent(QCloseEvent *event)
+{
+    settings->setValue(LIST_TEXT, MyCheckBoxContainer::getInstance()->getListText());
+    event->accept();
+}

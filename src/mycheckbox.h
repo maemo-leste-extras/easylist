@@ -1,9 +1,11 @@
 #ifndef MYCHECKBOX_H
 #define MYCHECKBOX_H
 
-#include <QCheckBox>
+//#include <QCheckBox>
+#include <QtWidgets/QCheckBox>
 #include <QDebug>
-#include <QMenu>
+//#include <QMenu>
+#include <QtWidgets/QMenu>
 #include <QObject>
 
 class MyCheckBox : public QCheckBox

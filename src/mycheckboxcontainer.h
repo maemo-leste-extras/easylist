@@ -4,8 +4,10 @@
 #include <QString>
 #include <QList>
 #include <QObject>
-#include <QLayout>
-#include <QVBoxLayout>
+//#include <QLayout>
+#include <QtWidgets/QLayout>
+//#include <QVBoxLayout>
+#include <QtWidgets/QVBoxLayout>
 #include "mycheckbox.h"
 
 class MyCheckBoxContainer : public QObject

@@ -1,7 +1,8 @@
 #ifndef EDITFORM_H
 #define EDITFORM_H
 
-#include <QWidget>
+//#include <QWidget>
+#include <QtWidgets/QWidget>
 #include <QDebug>
 #include <QSettings>
 #include "mycheckboxcontainer.h"

@@ -6,7 +6,8 @@
 #include <QPropertyAnimation>
 #include <QAbstractTransition>
 #include <QtCore>
-#include <QWidget>
+//#include <QWidgets>
+#include <QtWidgets/QWidget>
 #include <QPoint>
 #include <QDebug>
 

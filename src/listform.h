@@ -1,7 +1,8 @@
 #ifndef LISTFORM_H
 #define LISTFORM_H
 
-#include <QWidget>
+//#include <QWidget>
+#include <QtWidgets/QWidget>
 #include <QSettings>
 #include "mycheckboxcontainer.h"
 #include "systemsettings.h"
