@@ -1,3 +1,9 @@
+easylist (0.3.10-1+leste1) unstable; urgency=low
+
+  * setAttribute's replaced with setProperty; hopefully rotation will work.
+
+ -- Norayr Chilingarian <norayr@arnet.am>  Wed, 24 Dec 2022 19:07:12 +0400
+
 easylist (0.3.9-1+leste1) unstable; urgency=low
 
   * fremantle->chimaera, qt4->qt5.

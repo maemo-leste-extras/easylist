@@ -125,8 +125,9 @@ void MainForm::setLandscapeMode(bool landscape)
         tempLandscapeMode = true;
         qDebug() << LANDSCAPE;
 #ifdef Q_WS_MAEMO_5
-        setAttribute(Qt::WA_Maemo5LandscapeOrientation, true);
-        setAttribute(Qt::WA_Maemo5PortraitOrientation, false);
+        //setAttribute(Qt::WA_Maemo5LandscapeOrientation, true);
+        //setAttribute(Qt::WA_Maemo5PortraitOrientation, false);
+        setProperty("X-Maemo-Orientation", 0);
 #endif
     }
     else
@@ -134,8 +135,9 @@ void MainForm::setLandscapeMode(bool landscape)
         tempLandscapeMode = false;
         qDebug() << PORTRAIT;
 #ifdef Q_WS_MAEMO_5
-        setAttribute(Qt::WA_Maemo5PortraitOrientation, true);
-        setAttribute(Qt::WA_Maemo5LandscapeOrientation, false);
+        //setAttribute(Qt::WA_Maemo5PortraitOrientation, true);
+        //setAttribute(Qt::WA_Maemo5LandscapeOrientation, false);
+        setProperty("X-Maemo-Orientation", 1)
 #endif
     }
 }
