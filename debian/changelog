@@ -1,3 +1,9 @@
+easylist (0.3.11-1+leste1) unstable; urgency=low
+
+  * menu bar removed. rotation still not fixed.
+
+ -- Norayr Chilingarian <norayr@arnet.am>  Fri, 06 Jan 2023 17:50:00 +0400
+
 easylist (0.3.10-1+leste1) unstable; urgency=low
 
   * setAttribute's replaced with setProperty; hopefully rotation will work.

@@ -12,6 +12,7 @@
 #include <QAbstractTransition>
 #include <QPropertyAnimation>
 #include <QCloseEvent>
+#include <QMenuBar>
 #include "slidewidget.h"
 #include "listform.h"
 #include "editform.h"

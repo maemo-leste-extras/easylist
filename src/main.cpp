@@ -29,11 +29,14 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     MainForm w;
 
-#if defined(Q_WS_S60)
-    w.showMaximized();
-#else
+//#if defined(Q_WS_S60)
+//    w.showMaximized();
+//#elif defined(Q_WS_MAEMO_5)
     w.show();
-#endif
+    w.menuBar()->hide(); // hide menubar
+//#else
+//    w.show();
+//#endif
 
     return a.exec();
 }
