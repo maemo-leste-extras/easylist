@@ -1,3 +1,9 @@
+easylist (0.3.12-1+leste1) unstable; urgency=low
+
+  * daedalus port.
+
+ -- Norayr Chilingarian <norayr@arnet.am>  Sun, 10 Aug 2025 17:50:00 +0400
+
 easylist (0.3.11-1+leste1) unstable; urgency=low
 
   * menu bar removed. rotation still not fixed.
